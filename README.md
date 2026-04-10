@@ -1,1 +1,35 @@
-# DNA-Synthesis-Printer-Kill-Switch
+# DNA Synthesis Digital Twin (MVM 1.2)
+
+## Project Overview
+This project develops a high-fidelity, multi-scale state-space model for a DNA synthesis printer. Its primary purpose is to ensure sequence fidelity and safety during the synthesis of sensitive genetic materials by predicting and verifying process parameters in real-time and to ensure that if necessary, the operation is capable of shutting down immediately.
+
+---
+
+## Accomplishments (MVM 1.1 – 1.2)
+I have successfully transitioned the project from a static chemical model to a dynamic, piecewise-continuous simulation. Key technical milestones include:
+
+Mass Transfer & Fluidics: Implemented the **Nelson-Galloway correlation** for mass transfer and integrated Taylor-Aris dispersion to accurately model reagent arrival fronts.
+
+Steric Hindrance Modeling: Established a "Batch Progress" state ($\zeta$) that accounts for steric hindrance as the DNA chain grows.
+
+Yield Prediction: I designed the model to predict yield decay over multiple coupling cycles by tracking concentration and temperature trajectories across sequential pulses.
+Transient Analysis: Established a foundation for analyzing process fluctuations rather than just steady-state averages.
+
+---
+
+## Future Direction: MVM 1.3
+The next phase of my development focuses on **Industrial Realism** and economic optimization:
+
+Sequential Wash Cycles: Implementing a move toward a true time-aligned trajectory (TAT).
+
+Thermal Dynamics: Introducing temperature-dependent viscosity and a heat removal term to the energy balance equations.
+
+Waste State Integration: I will introduce a waste state to quantify reagent loss during arrival front dispersion, transitioning the model from a purely chemical simulation to an economic optimization tool.
+
+---
+
+## Technical Core
+The model relies on the following mathematical frameworks:
+State-Space Modeling: For multi-scale process tracking.
+Chemical Engineering Kinetics: Modeling the underlying synthesis reactions.
+Mass Transfer: Leveraging the Nelson-Galloway correlation.
