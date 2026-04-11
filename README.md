@@ -12,7 +12,7 @@ Hybrid Flow Modeling: I have moved beyond ideal PFR assumptions to implement a P
 
 Mass Transfer & Fluidics: Implemented the **Nelson-Galloway correlation** for mass transfer and integrated Taylor-Aris dispersion to accurately model reagent arrival fronts.
 
-Steric Hindrance & Yield Tracking: Established a "Batch Progress" state ($\zeta$) that accounts for steric hindrance and porosity decay as the DNA chain grows. The model now successfully tracks yield decay across sequential coupling cycles.
+Steric Hindrance & Yield Tracking: Established a "Batch Progress" state ($\zeta$) that accounts for steric hindrance and porosity decay as the DNA chain grows through the addition of phosphoramidite base pairs. The model now successfully tracks yield decay across sequential coupling cycles.
 
 Yield Prediction: I designed the model to predict yield decay over multiple coupling cycles by tracking concentration and temperature trajectories across sequential pulses.
 Transient Analysis: Established a foundation for analyzing process fluctuations rather than just steady-state averages.
