@@ -8,7 +8,7 @@ This project develops a high-fidelity, multi-scale state-space model for a DNA s
 ## Accomplishments (MVM 1.1 – 1.2)
 I have successfully transitioned the project from a static chemical model to a dynamic, piecewise-continuous simulation. Key technical milestones include:
 
-Hybrid Flow Modeling: I have moved beyond ideal PFR assumptions to implement a Pulse-Wait (Incubation) flow regime using a compartment model modelling the flow as a PFR and a batch reactor connected by a recyle stream. This captures the industrial reality of stop-flow synthesis, where reagent is pulsed into the bed and allowed to incubate under batch conditions to maximize coupling yield.
+Hybrid Flow Modeling: I have moved beyond ideal PFR assumptions to implement a Pulse-Wait (Incubation) flow regime using a compartment model consisting of a PFR connected to a batch reactor, which loops back to the PFR via recyle stream. This captures the industrial reality of stop-flow synthesis, where reagent is pulsed into the bed and allowed to incubate under batch conditions to maximize coupling yield.
 
 Mass Transfer & Fluidics: Implemented the **Nelson-Galloway correlation** for mass transfer and integrated Taylor-Aris dispersion to accurately model reagent arrival fronts.
 
