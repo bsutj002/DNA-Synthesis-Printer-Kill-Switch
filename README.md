@@ -10,7 +10,7 @@ I have successfully transitioned the project from a static chemical model to a d
 
 Hybrid Flow Modeling: I have moved beyond ideal PFR assumptions to implement a Pulse-Wait (Incubation) flow regime using a compartment model consisting of a PFR connected to a batch reactor, which loops back to the PFR via recyle stream. This captures the industrial reality of stop-flow synthesis, where reagent is pulsed into the bed and allowed to incubate under batch conditions to maximize coupling yield.
 
-Mass Transfer & Fluidics: Implemented the **Nelson-Galloway correlation** for mass transfer and integrated Taylor-Aris dispersion to accurately model reagent arrival fronts.
+Mass Transfer & Fluidics: Implemented the Nelson-Galloway correlation for modelling mass transfer of fluid passing through a bed of packed beads and integrated Taylor-Aris dispersion to accurately model reagent arrival fronts.
 
 Steric Hindrance & Yield Tracking: Established a "Batch Progress" state ($\zeta$) that accounts for steric hindrance and porosity decay as the DNA chain grows through the addition of phosphoramidite base pairs. The model now successfully tracks yield decay across sequential coupling cycles.
 
