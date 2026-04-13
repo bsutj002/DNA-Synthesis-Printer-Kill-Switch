@@ -12,7 +12,10 @@ Hybrid Flow Modeling: I have moved beyond ideal PFR assumptions to implement a P
 
 Mass Transfer & Fluidics: Implemented the Nelson-Galloway correlation for modelling the mass transfer of the reagent passing through a bed of packed beads and integrated Taylor-Aris dispersion to accurately model reagent arrival fronts.
 
-Steric Hindrance & Yield Tracking: Established a "Batch Progress" state ($\zeta$) that accounts for steric hindrance and porosity decay as the DNA chain grows through the addition of phosphoramidite base pairs. The model now successfully tracks yield decay across sequential coupling cycles.
+Steric Hindrance & Yield Tracking: Established a "Batch Progress" state ($\zeta$) that accounts for steric hindrance and porosity decay as the DNA chain grows through the addition of phosphoramidite base pairs. The model now successfully tracks 
+yield decay across sequential coupling cycles.
+
+Thermal Dynamics: Introducing temperature-dependent viscosity and a heat removal term to the energy balance equations.
 
 Yield Prediction: I designed the model to predict yield decay over multiple coupling cycles by tracking concentration and temperature trajectories across sequential pulses.
 Transient Analysis: Established a foundation for analyzing process fluctuations rather than just steady-state averages.
@@ -23,8 +26,6 @@ Transient Analysis: Established a foundation for analyzing process fluctuations 
 The next phase of my development focuses on **Industrial Realism** and economic optimization:
 
 Sequential Wash Cycles: Implementing a move toward a true time-aligned trajectory (TAT).
-
-Thermal Dynamics: Introducing temperature-dependent viscosity and a heat removal term to the energy balance equations.
 
 Waste State Integration: I will introduce a waste state to quantify reagent loss during arrival front dispersion, transitioning the model from a purely chemical simulation to an economic optimization tool.
 
