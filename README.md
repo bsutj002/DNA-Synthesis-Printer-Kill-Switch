@@ -15,7 +15,7 @@ Mass Transfer & Fluidics: Implemented the Nelson-Galloway correlation for modell
 Steric Hindrance & Yield Tracking: Established a "Batch Progress" state ($\zeta$) that accounts for steric hindrance and porosity decay as the DNA chain grows through the addition of phosphoramidite base pairs. The model now successfully tracks 
 yield decay across sequential coupling cycles.
 
-Thermal Dynamics: Introducing temperature-dependent viscosity and a heat removal term to the energy balance equations.
+Thermal Dynamics: Established a temperature-dependent viscosity and a heat removal term to the energy balance equations to ensure that the heat transfer being depicted in the system is as realistic as possible.
 
 Yield Prediction: I designed the model to predict yield decay over multiple coupling cycles by tracking concentration and temperature trajectories across sequential pulses.
 Transient Analysis: Established a foundation for analyzing process fluctuations rather than just steady-state averages.
